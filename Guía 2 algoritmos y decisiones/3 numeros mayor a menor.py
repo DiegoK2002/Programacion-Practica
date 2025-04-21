@@ -1,0 +1,9 @@
+lista = []
+numero = int(input("Ingrese el primer numero: ", ))
+numero_2 = int(input("Ingrese el segundo numero: ", ))
+numero_3 = int(input("Ingrese el tercer numero: ", ))
+lista.append(numero)
+lista.append(numero_2)
+lista.append(numero_3)
+lista.sort(reverse = True)
+print(lista)
